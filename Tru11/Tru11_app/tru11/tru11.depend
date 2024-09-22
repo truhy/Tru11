@@ -1,0 +1,267 @@
+# depslib dependency file v1.0
+1722011534 source:/home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/app_error_string.cpp
+	"app_error_string.h"
+
+1723145245 /home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/app_error_string.h
+	"tru_macro.h"
+
+1719493258 /home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/tru_macro.h
+
+1722689688 source:/home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/cmd_line.cpp
+	"cmd_line.h"
+
+1723310714 /home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/cmd_line.h
+	"my_buf.h"
+	<string>
+
+1722806114 /home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/my_buf.h
+	<stdlib.h>
+	<cstdint>
+
+1719506826 source:/home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/tc_string.cpp
+	"tc_string.h"
+
+1719509981 /home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/tc_string.h
+	<tchar.h>
+	<string>
+	<sstream>
+	<iomanip>
+
+1723310692 source:/home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/serial_com.cpp
+	"serial_com.h"
+	"tru_exception.h"
+	<stdio.h>
+	<sys/ioctl.h>
+
+1723145343 /home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/serial_com.h
+	"tru_macro.h"
+	"tc_string.h"
+	<windows.h>
+	<cstdint>
+	<string>
+	"tru_macro.h"
+	<cstdint>
+	<string>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	<unistd.h>
+
+1723308397 /home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/tru_exception.h
+	"to_string.h"
+	<string>
+	<cstring>
+	<windows.h>
+	<errno.h>
+
+1717451356 /home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/to_string.h
+	<string>
+	<iomanip>
+	<sstream>
+
+1723308529 source:/home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/my_file.cpp
+	"my_file.h"
+	"tru_exception.h"
+	"app_error_string.h"
+
+1723101688 /home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/my_file.h
+	<stdio.h>
+	<string>
+
+1723310701 source:/home/truong/Programming/c++/TruHC11 talker/v2/Tru11 app/tru11/main.cpp
+	"app_error_string.h"
+	"tru_exception.h"
+	"cmd_line.h"
+	"to_string.h"
+	"serial_com.h"
+	"my_buf.h"
+	"my_file.h"
+	<stdio.h>
+	<iostream>
+	<format>
+	<Windows.h>
+	<unistd.h>
+
+1722011534 source:/home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/app_error_string.cpp
+	"app_error_string.h"
+
+1723145245 /home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/app_error_string.h
+	"tru_macro.h"
+
+1719493258 /home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/tru_macro.h
+
+1725192664 source:/home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/cmd_line.cpp
+	"cmd_line.h"
+
+1725204098 /home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/cmd_line.h
+	"my_buf.h"
+	<string>
+
+1722806114 /home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/my_buf.h
+	<stdlib.h>
+	<cstdint>
+
+1725200815 source:/home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/main.cpp
+	"app_error_string.h"
+	"tru_exception.h"
+	"cmd_line.h"
+	"to_string.h"
+	"serial_com.h"
+	"my_buf.h"
+	"my_file.h"
+	<stdio.h>
+	<iostream>
+	<format>
+	<Windows.h>
+	<unistd.h>
+
+1725193895 /home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/tru_exception.h
+	"to_string.h"
+	<string>
+	<cstring>
+	<windows.h>
+	<errno.h>
+
+1717451356 /home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/to_string.h
+	<string>
+	<iomanip>
+	<sstream>
+
+1725204551 /home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/serial_com.h
+	"tru_macro.h"
+	"tc_string.h"
+	<windows.h>
+	<cstdint>
+	<string>
+	"tru_macro.h"
+	<cstdint>
+	<string>
+	<fcntl.h>
+	<errno.h>
+	<unistd.h>
+	<termios.h>
+
+1719509981 /home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/tc_string.h
+	<tchar.h>
+	<string>
+	<sstream>
+	<iomanip>
+
+1723101688 /home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/my_file.h
+	<stdio.h>
+	<string>
+
+1723308529 source:/home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/my_file.cpp
+	"my_file.h"
+	"tru_exception.h"
+	"app_error_string.h"
+
+1719506826 source:/home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/tc_string.cpp
+	"tc_string.h"
+
+1725205264 source:/home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/serial_com.cpp
+	"serial_com.h"
+	"tru_exception.h"
+	<stdio.h>
+	<sys/ioctl.h>
+
+1725195695 source:/home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/serial_baud.cpp
+	"serial_baud.h"
+
+1725195654 /home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/serial_baud.h
+	<cstdint>
+	<sys/ioctl.h>
+	<asm/termbits.h>
+
+1725196324 source:/home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/serial_ext.cpp
+	"serial_ext.h"
+
+1725195844 /home/truong/Programming/c++/TruHC11/v2/Tru11_app/tru11/serial_ext.h
+	<cstdint>
+	<sys/ioctl.h>
+	<asm/termbits.h>
+
+1725717940 source:/home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/app_error_string.cpp
+	"app_error_string.h"
+
+1725717879 /home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/app_error_string.h
+	"tru_macro.h"
+	<cstdint>
+
+1725717880 /home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/tru_macro.h
+
+1725694297 source:/home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/cmd_line.cpp
+	"cmd_line.h"
+
+1725719444 /home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/cmd_line.h
+	"my_buf.h"
+	<string>
+
+1725683490 /home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/my_buf.h
+	"tru_exception.h"
+	<stdlib.h>
+	<cstdint>
+
+1725206274 /home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/tru_exception.h
+	"to_string.h"
+	<string>
+	<cstring>
+	<windows.h>
+	<errno.h>
+
+1717451356 /home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/to_string.h
+	<string>
+	<iomanip>
+	<sstream>
+
+1725660805 source:/home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/my_file.cpp
+	"my_file.h"
+	"tru_exception.h"
+
+1723101688 /home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/my_file.h
+	<stdio.h>
+	<string>
+
+1725719101 source:/home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/serial_com.cpp
+	"serial_com.h"
+	"tru_exception.h"
+	<stdio.h>
+	<sys/ioctl.h>
+
+1725717900 /home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/serial_com.h
+	"tru_macro.h"
+	"tc_string.h"
+	<windows.h>
+	<cstdint>
+	<string>
+	"tru_macro.h"
+	<cstdint>
+	<string>
+	<fcntl.h>
+	<errno.h>
+	<unistd.h>
+	<termios.h>
+
+1719509981 /home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/tc_string.h
+	<tchar.h>
+	<string>
+	<sstream>
+	<iomanip>
+
+1725206364 source:/home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/tc_string.cpp
+	"tc_string.h"
+
+1725718317 source:/home/truong/Programming/c++/TruHC11/v3/Tru11_app/tru11/main.cpp
+	"app_error_string.h"
+	"tru_exception.h"
+	"cmd_line.h"
+	"to_string.h"
+	"serial_com.h"
+	"my_buf.h"
+	"my_file.h"
+	<stdio.h>
+	<iostream>
+	<format>
+	<Windows.h>
+	<unistd.h>
+

@@ -1,0 +1,140 @@
+# depslib dependency file v1.0
+1722011534 source:/home/truong/Programming/c++/TBug11/TBug11 app/tbug11/app_error_string.cpp
+	"app_error_string.h"
+
+1722011534 /home/truong/Programming/c++/TBug11/TBug11 app/tbug11/app_error_string.h
+	"tru_macro.h"
+
+1719493258 /home/truong/Programming/c++/TBug11/TBug11 app/tbug11/tru_macro.h
+
+1723308529 source:/home/truong/Programming/c++/TBug11/TBug11 app/tbug11/my_file.cpp
+	"my_file.h"
+	"tru_exception.h"
+	"app_error_string.h"
+
+1723101688 /home/truong/Programming/c++/TBug11/TBug11 app/tbug11/my_file.h
+	<stdio.h>
+	<string>
+
+1723308397 /home/truong/Programming/c++/TBug11/TBug11 app/tbug11/tru_exception.h
+	"to_string.h"
+	<string>
+	<cstring>
+	<windows.h>
+	<errno.h>
+
+1717451356 /home/truong/Programming/c++/TBug11/TBug11 app/tbug11/to_string.h
+	<string>
+	<iomanip>
+	<sstream>
+
+1723330472 source:/home/truong/Programming/c++/TBug11/TBug11 app/tbug11/serial_com.cpp
+	"serial_com.h"
+	"tru_exception.h"
+	<stdio.h>
+	<sys/ioctl.h>
+
+1723145343 /home/truong/Programming/c++/TBug11/TBug11 app/tbug11/serial_com.h
+	"tru_macro.h"
+	"tc_string.h"
+	<windows.h>
+	<cstdint>
+	<string>
+	"tru_macro.h"
+	<cstdint>
+	<string>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	<unistd.h>
+
+1719509981 /home/truong/Programming/c++/TBug11/TBug11 app/tbug11/tc_string.h
+	<tchar.h>
+	<string>
+	<sstream>
+	<iomanip>
+
+1719506826 source:/home/truong/Programming/c++/TBug11/TBug11 app/tbug11/tc_string.cpp
+	"tc_string.h"
+
+1722011534 source:/home/truong/Programming/c++/TBug11/TBug11_app/tbug11/app_error_string.cpp
+	"app_error_string.h"
+
+1722011534 /home/truong/Programming/c++/TBug11/TBug11_app/tbug11/app_error_string.h
+	"tru_macro.h"
+
+1719493258 /home/truong/Programming/c++/TBug11/TBug11_app/tbug11/tru_macro.h
+
+1722689657 source:/home/truong/Programming/c++/TBug11/TBug11_app/tbug11/cmd_line.cpp
+	"cmd_line.h"
+
+1723417791 /home/truong/Programming/c++/TBug11/TBug11_app/tbug11/cmd_line.h
+	<cstdint>
+	<string>
+
+1723308529 source:/home/truong/Programming/c++/TBug11/TBug11_app/tbug11/my_file.cpp
+	"my_file.h"
+	"tru_exception.h"
+	"app_error_string.h"
+
+1723101688 /home/truong/Programming/c++/TBug11/TBug11_app/tbug11/my_file.h
+	<stdio.h>
+	<string>
+
+1723308397 /home/truong/Programming/c++/TBug11/TBug11_app/tbug11/tru_exception.h
+	"to_string.h"
+	<string>
+	<cstring>
+	<windows.h>
+	<errno.h>
+
+1717451356 /home/truong/Programming/c++/TBug11/TBug11_app/tbug11/to_string.h
+	<string>
+	<iomanip>
+	<sstream>
+
+1719506826 source:/home/truong/Programming/c++/TBug11/TBug11_app/tbug11/tc_string.cpp
+	"tc_string.h"
+
+1719509981 /home/truong/Programming/c++/TBug11/TBug11_app/tbug11/tc_string.h
+	<tchar.h>
+	<string>
+	<sstream>
+	<iomanip>
+
+1723417775 source:/home/truong/Programming/c++/TBug11/TBug11_app/tbug11/serial_com.cpp
+	"serial_com.h"
+	"tru_exception.h"
+	<stdio.h>
+	<sys/ioctl.h>
+
+1723417762 /home/truong/Programming/c++/TBug11/TBug11_app/tbug11/serial_com.h
+	"tru_macro.h"
+	"tc_string.h"
+	<windows.h>
+	<cstdint>
+	<string>
+	"tru_macro.h"
+	<cstdint>
+	<string>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	<unistd.h>
+
+1723416836 source:/home/truong/Programming/c++/TBug11/TBug11_app/tbug11/main.cpp
+	"app_error_string.h"
+	"tru_exception.h"
+	"cmd_line.h"
+	"to_string.h"
+	"serial_com.h"
+	"my_buf.h"
+	"my_file.h"
+	<stdio.h>
+	<iostream>
+	<format>
+	<Windows.h>
+	<unistd.h>
+
+1721430174 /home/truong/Programming/c++/TBug11/TBug11_app/tbug11/my_buf.h
+
