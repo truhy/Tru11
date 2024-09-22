@@ -1,4 +1,6 @@
-![68HC11 prototype programming board.](68HC11_prototype.jpg)
+<p align="center">
+  <img src="68HC11_prototype.jpg" alt="68HC11 prototype programming board." />
+</p>
 
 Tru11
 -----
@@ -41,15 +43,17 @@ The standard includes:
 
 On both versions, there is a header with 5V input supply and 5V TTL serial pins, which you can wire directly to a serial TTL-to-USB adapter, e.g. CH340 (plenty on ebay) or FT232 ready made board, please set the jumper to 5V if the board has the option.
 
-![3D rendered 68HC11 standard programming board.](68HC11_standard.png)
+<p align="center">
+	<img src="68HC11_standard.png" alt="3D rendered 68HC11 standard programming board." />
+</p>
 
 Example run scripts
 -------------------
 
 The example run scripts make use of the settings in the script:
-env_win.bat (if using Windows)
-env_linux.sh (if using Linux)
+- env_win.bat (if using Windows)
+- env_linux.sh (if using Linux)
 
 Edit the script with the correct serial port path, then run:
-upload_talker.bat (if using Windows)
-upload_talker.sh (if using Linux)
+- upload_talker.bat (if using Windows)
+- upload_talker.sh (if using Linux)
