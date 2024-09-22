@@ -24,7 +24,7 @@ TBug11
 ------
 
 This is an alternative program to Tru11, which achieves the same thing but uses JBug11 talker firmware (by John Beatty) instead.
-The original JBug11 firmware is interrupt driven, and this requires the XIRQ or IRQ pins to be pulled up to Vcc.  But on my minimal programming board, these are floating and so will not work.
+The original JBug11 firmware is interrupt driven, and this requires the XIRQ or IRQ pins to be pulled up to VDD (5V supply).  But on my minimal programming board, these are floating and so will not work.
 I've modified the firmware, adding in a new option (made default) for a polling method, which enables the minimal programming board to work.
 
 68HC11 programming board
@@ -42,3 +42,14 @@ The standard includes:
 On both versions, there is a header with 5V input supply and 5V TTL serial pins, which you can wire directly to a serial TTL-to-USB adapter, e.g. CH340 (plenty on ebay) or FT232 ready made board, please set the jumper to 5V if the board has the option.
 
 ![3D rendered 68HC11 standard programming board.](68HC11_standard.png)
+
+Example run scripts
+-------------------
+
+The example run scripts make use of the settings in the script:
+env_win.bat (if using Windows)
+env_linux.sh (if using Linux)
+
+Edit the script with the correct serial port path, then run:
+upload_talker.bat (if using Windows)
+upload_talker.sh (if using Linux)
