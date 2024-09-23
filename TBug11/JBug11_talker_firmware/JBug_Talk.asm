@@ -111,7 +111,12 @@ talker_start	EQU	$0000
 #ENDIF
 
 ;
-;talker_idle	JMP	talker_idle	; Hang-around loop
+#IF IntType == $00
+talker_idle	JMP	talker_idle	; Hang-around loop
+#ENDIF
+#IF IntType == $01
+talker_idle	JMP	talker_idle	; Hang-around loop
+#ENDIF
 
 sci_srv		LDAA	SCSR		; Load A with the SCI status register
 		ANDA	#$20		; AND it with the RDRF mask
