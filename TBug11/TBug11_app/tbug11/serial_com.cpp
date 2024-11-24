@@ -192,7 +192,7 @@ DWORD serial_com::read_port(void *buf, uint32_t len){
 								switch(read_error){
 									case ERROR_HANDLE_EOF: break;  // End of file reached!
 									case ERROR_IO_INCOMPLETE: break;  // IO is still pending
-									case ERROR_IO_PENDING: CancelIo(read_handle); break;  // IO is still pending, cancel the read
+									case ERROR_IO_PENDING: CancelIo(fd); break;  // IO is still pending, cancel the read
 								}
 							}
 							bytes_read += overlapped_bytes_read;
@@ -257,7 +257,7 @@ DWORD serial_com::write_port(void *buf, uint32_t len){
 								write_error = GetLastError();
 								switch(write_error){
 									case ERROR_IO_INCOMPLETE: break;  // IO is still pending
-									case ERROR_IO_PENDING: CancelIo(read_handle); break;  // IO is still pending, cancel the read
+									case ERROR_IO_PENDING: CancelIo(fd); break;  // IO is still pending, cancel the read
 								}
 							}
 							bytes_written += overlapped_bytes_written;
