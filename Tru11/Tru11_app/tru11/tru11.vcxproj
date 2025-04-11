@@ -43,12 +43,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)build\win\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)build\win\$(Configuration)\obj\</IntDir>
+    <IntDir>$(SolutionDir)build\win\obj\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)build\win\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)build\win\$(Configuration)\obj\</IntDir>
+    <IntDir>$(SolutionDir)build\win\obj\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
